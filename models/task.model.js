@@ -1,0 +1,80 @@
+const Tasks = [
+  {
+    id: 1,
+    title: "Task 1",
+    description: "Description 1",
+    priority: "high",
+    createdAt: "2024-09-20T10:15:30Z",
+    updatedAt: "updated time",
+    assignedTo: "1",
+  },
+  {
+    id: 2,
+    title: "Task 2",
+    description: "Description 2",
+    priority: "low",
+    createdAt: "2024-09-21T14:45:00+00:00",
+    updatedAt: "updated time",
+    assignedTo: "1",
+  },
+  {
+    id: 3,
+    title: "Task 3",
+    description: "Description 3",
+    priority: "medium",
+    createdAt: "2024-09-20T14:45:00+00:00",
+    updatedAt: "updated time",
+    assignedTo: "2",
+  },
+  {
+    id: 4,
+    title: "Task 4",
+    description: "Description 4",
+    priority: "high",
+    createdAt: "2024-09-18T16:30:00+00:00",
+    updatedAt: "updated time",
+    assignedTo: "2",
+  },
+  {
+    id: 5,
+    title: "Task 5",
+    description: "Description 5",
+    priority: "high",
+    createdAt: "2024-09-17T07:25:15Z",
+    updatedAt: "updated time",
+    assignedTo: "3",
+  },
+  {
+    id: 6,
+    title: "Task 6",
+    description: "Description 6",
+    priority: "low",
+    createdAt: "2024-09-16T12:10:45-07:00",
+    updatedAt: "updated time",
+    assignedTo: "4",
+  },
+  {
+    id: 7,
+    title: "Task 7",
+    description: "Description 7",
+    priority: "medium",
+    createdAt: "2024-09-15T21:05:00+00:00",
+    updatedAt: "updated time",
+    assignedTo: "4",
+  },
+];
+
+const taskSchema = {
+  id: "number",
+  title: "string",
+  description: "string",
+  priority: " string",
+  createdAt: "string",
+  updatedAt: "string",
+  assignedTo: "string",
+};
+
+module.exports = {
+  Tasks,
+  taskSchema,
+};
